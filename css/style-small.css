@@ -1,0 +1,62 @@
+/* small screen styling */
+@media screen and (min-width: 1001px) and (max-width: 1919px)
+{
+    #header img
+    {
+        width: 45vw;
+    }
+
+    .cn_item
+    {
+        width: 90%;
+    }
+
+    .cn_title
+    {
+        font-size: 2rem;
+    }
+
+    #np_artwork
+    {
+        width: 10vmax;
+        height: 10vmax;
+    }
+
+    #np_text
+    {
+        width: auto;
+        max-width: 88%;
+        height: auto;
+
+        text-align: left;
+    }
+
+    #np_song
+    {
+        font-size: 1.75rem;
+        line-height: 160%;
+    }
+
+    #np_artist
+    {
+        font-size: 1.5rem;
+        line-height: 135%;
+    }
+
+    #np_album
+    {
+        font-size: 1.5rem;
+        line-height: 135%;
+    }
+
+    #staff_button
+    {
+        font-size: 1.5rem;
+    }
+
+    .soc_item
+    {
+        width: 8vmax;
+        height: 8vmax;
+    }
+}

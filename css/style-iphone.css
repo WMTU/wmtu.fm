@@ -1,0 +1,44 @@
+/* fuck you get a bigger device */
+@media screen and (max-width: 765px)
+{
+    .nav_button
+    {
+        margin: .5vh 0;
+        width: 90vw;
+        height: auto;
+        font-size: 1.5rem;
+    }
+
+    #alert
+    {
+        width: 88vw;
+        font-size: 1rem;
+    }
+
+    .cn_title
+    {
+        font-size: 1.5rem;
+    }
+
+    #np_song
+    {
+        font-size: 1.25rem;
+    }
+
+    #np_artist
+    {
+        font-size: 1rem;
+    }
+
+    #np_album
+    {
+        font-size: 1rem;
+    }
+
+    .soc_item
+    {
+        margin: 2vh 5vw;
+        width: 14vmax;
+        height: 14vmax;
+    }
+}

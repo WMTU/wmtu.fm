@@ -1,0 +1,107 @@
+.cn_item
+{
+    margin: 0;
+    margin-bottom: 1vh;
+    padding: 0;
+    width: auto;
+    max-width: 100vw;
+    height: auto;
+    border: 0;
+}
+
+table
+{
+    width: auto;
+    max-width: 95%;
+    height: auto;
+    background: #222222;
+
+    border-spacing: 0;
+
+    font-size: 1.25rem;
+    text-align: left;
+}
+
+thead
+{
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+    color: black;
+}
+
+th
+{
+    background: #ffcd00;
+}
+
+th:first-child
+{
+    border: 0 solid transparent;
+    border-top-left-radius: .5rem;
+}
+
+th:last-child
+{
+    border: 0 solid transparent;
+    border-top-right-radius: .5rem;
+}
+
+td:first-child
+{
+    border-left: 2px solid #ffcd00;
+}
+
+td:last-child
+{
+    border-right: 2px solid #ffcd00;
+}
+
+tbody tr:nth-child(even) {
+    background: black;
+    color: #ffcd00;
+}
+
+th, td
+{
+    margin: 0;
+    padding: 1vmin 2vmin;
+    width: auto;
+    height: auto;
+    border-bottom: 2px solid #ffcd00;
+}
+
+/* small */
+@media screen and (min-width: 1001px) and (max-width: 1919px)
+{
+    
+}
+
+/* ipad */
+@media screen and (max-width: 1000px)
+{
+    table
+    {
+        font-size: .75rem;
+    }
+
+    thead
+    {
+        font-size: 1rem;
+    }
+}
+
+/* iphone */
+@media screen and (max-width: 765px)
+{
+    table
+    {
+        font-size: .5rem;
+    }
+
+    thead
+    {
+        font-size: .75rem;
+    }
+}

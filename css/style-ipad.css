@@ -1,0 +1,108 @@
+/* tiny screen styling */
+@media screen and (max-width: 1000px)
+{
+    #header img
+    {
+        width: 75vw;
+    }
+
+    .nav_button
+    {
+        font-size: 1.75rem;
+    }
+
+    #alert
+    {
+        font-size: 1.25rem;
+    }
+
+    #content
+    {
+        width: 100%;
+    }
+
+    .cn_item
+    {
+        width: 90%;
+    }
+
+    .cn_title
+    {
+        font-size: 2rem;
+    }
+
+    #np_artwork
+    {
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 1vh;
+        width: 25vw;
+        height: 25vw;
+    }
+
+    #np_text
+    {
+        margin: 0;
+        width: 95%;
+        max-width: 95%;
+        height: auto;
+
+        text-align: center;
+    }
+
+    #np_song
+    {
+        font-size: 1.5rem;
+        line-height: 150%;
+    }
+
+    #np_artist
+    {
+        font-size: 1.25rem;
+        line-height: 125%;
+    }
+
+    #np_album
+    {
+        font-size: 1.25rem;
+        line-height: 125%;
+    }
+
+    #play_button
+    {
+        margin: 2vmax auto;
+        width: 90%;
+    }
+
+    .soc_item
+    {
+        width: 10vmax;
+        height: 10vmax;
+    }
+
+    #staff_button
+    {
+        font-size: 1.5rem;
+    }
+
+    #footer
+    {
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    .footer_item
+    {
+        margin-bottom: 2vh;
+    }
+
+    #address
+    {
+        margin-bottom: 2vh;
+    }
+
+    #footer p
+    {
+        margin: .25vh 1vw;
+    }
+}

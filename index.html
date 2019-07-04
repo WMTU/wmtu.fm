@@ -1,0 +1,147 @@
+<!--
+    888       888 888b     d888 88888888888 888     888
+    888   o   888 8888b   d8888     888     888     888
+    888  d8b  888 88888b.d88888     888     888     888
+    888 d888b 888 888Y88888P888     888     888     888
+    888d88888b888 888 Y888P 888     888     888     888
+    88888P Y88888 888  Y8P  888     888     888     888
+    8888P   Y8888 888   "   888     888     Y88b. .d88P
+    888P     Y888 888       888     888      "Y88888P"
+
+    WMTU website
+    Website developed by Brady Bilderback, Summer 2018
+    WMTU Technology, wmtu-tech@mtu.edu
+-->
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-93906610-2"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-93906610-2');
+        </script>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>WMTU 91.9 FM</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="mask-icon" href="safari-pinned-tab.svg" color="#ffcd00">
+        <meta name="msapplication-TileColor" content="#603cba">
+        <meta name="msapplication-TileImage" content="mstile-144x144.png">
+        <meta name="theme-color" content="#ffcd00">
+
+        <!-- css styling -->
+        <!-- Original CSS-->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style-small.css">
+        <link rel="stylesheet" href="css/style-ipad.css">
+        <link rel="stylesheet" href="css/style-iphone.css">
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,800" rel="stylesheet">
+    </head>
+    <body>
+        <div id="header">
+                <div id="alert">Welcome to our new website! We would appreciate it if you took our <a href="https://goo.gl/forms/EqV2mlwKlvvD9FhU2" target="_blank">listener survey</a>.</div>
+                <div id="alert">Looking for the old website? You can find it at <a href="https://old.wmtu.fm" target="_blank">old.wmtu.fm</a></div>                
+            <a href="/" target="_self"><img src="img/wmtu_logo.svg" alt="WMTU Logo"></a>
+            <div id="nav">
+                <a href="https://kfest.wmtu.fm" target="_blank"><div class="nav_button">KFEST</div></a>
+                <a href="https://calendar.google.com/calendar/embed?src=mtu.edu_st7ihirh2te644hrhj3d4vbric%40group.calendar.google.com&ctz=America%2FNew_York" target="_blank"><div class="nav_button">SCHEDULE</div></a>
+                <a href="https://archive.wmtu.fm" target="_blank"><div class="nav_button">ARCHIVES</div></a>
+                <a href="https://forum.wmtu.fm" target="_blank"><div class="nav_button">FORUM</div></a>
+                <!--<a href="https://shop.wmtu.fm" target="_blank"><div class="nav_button">SHOP</div></a>-->
+                <!--<a href="about.html" target="_blank"><div class="nav_button">ABOUT</div></a>-->
+            </div>
+        </div>
+
+        <div id="content">
+            
+            <div class="cn_item" id="now_playing">
+                <div class="cn_title">Now Playing on WMTU</div>
+                <div id="np_artwork"></div>
+                <div id="np_text">
+                    <div id="np_song">Javascript fail!</div>
+                    <div id="np_artist">Javascript fail!</div>
+                    <div id="np_album">Javascript fail!</div>
+                </div>
+                <div id="play_button">&#x25B6;</div>
+            </div>
+
+            <div class="cn_item" id="twitch">
+                <div class="cn_title">Watch the Booth</div>
+                <iframe src="https://player.twitch.tv/?channel=wmtu_tech&autoplay=false" frameborder="0" allowfullscreen="true" scrolling="no" preload="metadata"></iframe>
+            </div>
+
+            <div class="cn_item" id="connect">
+                <div class="cn_title">Connect with WMTU</div>
+
+                <a href="https://twitter.com/wmtu" target="_blank"><div class="soc_item" id="twitter"></div></a>
+                <a href="https://www.facebook.com/wmtufm" target="_blank"><div class="soc_item" id="facebook"></div></a>
+                <a href="https://www.snapchat.com/add/wmtu-ape" target="_blank"><div class="soc_item" id="snapchat"></div></a>
+                <a href="https://github.com/WMTU" target="_blank"><div class="soc_item" id="github"></div></a>
+            </div>
+
+            <div class="cn_item" id="contact">
+                <div class="cn_title">Contact WMTU Staff</div>
+                <a href="staff"><div id="staff_button">Staff Directory</div></a>
+            </div>
+
+            <!--
+            <div class="cn_item" id="sponsors">
+                <div class="cn_title">WMTU Sponsors</div>
+                <div class="sp_item"></div>
+            </div>
+            -->
+
+        </div>
+        
+        <div id="footer">
+            <div class="footer_item">
+                <div id="addr_title">WMTU 91.9 FM</div>
+                <p id="address">
+                    1703 Townsend Drive<br>
+                    G03W Wadsworth Hall<br>
+                    Houghton, MI 49931<br>
+                </p>
+                &#x1F4FB; 906-487-1600<br>
+                &#x1F3E2; 906-487-2333
+            </div>
+            <div class="footer_item">
+                <p id="status"><a href="https://status.wmtu.fm" target="_blank" id="status_desc">Current WMTU Status: All Systems Operational</a></p>
+                <p>Site not working properly? Submit a <a href="https://goo.gl/forms/euFRaihD5T6WZYdU2" target="_blank">Bug Report</a>!</p>
+                <p>&nbsp;</p>
+                <p>WMTU is funded by the Undergraduate Student Government of Michigan Tech.</p>
+                <p>Special thanks to MTU Information Technology for datacenter space and support.</p>
+                <div id="copydate">© 2018 WMTU 91.9 FM Houghton, Michigan Technological University</div>
+            </div>
+        </div>
+
+        <!-- jQuery -->
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <!-- Status Page -->
+        <script src="js/statuspage.js"></script>
+        <!-- now playing -->
+        <script src="js/playlist.js"></script>
+        <!-- music player -->
+        <script src="js/howler.js"></script>
+        <script src="js/player.js"></script>
+        <!-- copyright date -->
+        <script src="js/copyright.js"></script>
+    </body>
+</html>

@@ -1,0 +1,434 @@
+body
+{
+    margin: 0;
+    background: black;
+
+    font-family: 'Open Sans', sans-serif;
+    color: #ffcd00;
+    font-size: 2rem;
+}
+
+a
+{
+    color: inherit;
+    text-decoration: none;
+}
+
+/* 1080p and up styling, also default */
+#header
+{
+    padding-bottom: 1vh;
+    width: 100%;
+    height: auto;
+    background: #ffcd00;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+
+#header img
+{
+    width: 25vw;
+    height: auto;
+}
+
+#nav
+{
+    width: auto;
+    max-width: 95vw;
+    height: auto;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+
+.nav_button
+{
+    margin: 0 1.5vw;
+    padding: .25vh 1vw;
+    width: auto;
+    height: auto;
+
+    border: 2px solid black;
+    border-radius: .5rem;
+
+    color: black;
+    text-align: center;
+    font-weight: 700;
+}
+
+.nav_button:hover
+{
+    background: black;
+    color: #ffcd00;
+}
+
+#alert
+{
+    margin-top: 1vh;
+    padding: .25vmin 2vmin;
+    width: 75vw;
+    height: auto;
+    background: orangered;
+
+    border: 2px solid black;
+    border-radius: .5rem;
+
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+#alert a
+{
+    color: #ffcd00;
+    text-decoration: underline;
+}
+
+#alert a:hover
+{
+    color: white;
+}
+
+#content
+{
+    margin: 1vh auto;
+    width: 85vw;
+    height: auto;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.cn_item
+{
+    margin: 1vh 0;
+    padding: 1vmax;
+    width: 75%;
+    height: auto;
+
+    border: 2px solid #ffcd00;
+    border-radius: .5rem;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.cn_title
+{
+    margin-bottom: 1vh;
+    width: 100%;
+    height: auto;
+
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#now_playing
+{
+    background: #ffcd00;
+    color: black;
+}
+
+#np_artwork
+{
+    width: 8vmax;
+    height: 8vmax;
+    background: #ffcd00 url("../img/default_artwork.svg");
+
+    border: 2px solid black;
+    border-radius: .5rem;
+
+    color: transparent;
+}
+
+#np_artwork img
+{
+    border: 0 solid transparent;
+    border-radius: .5rem;
+}
+
+#np_text
+{
+    margin-left: 1vw;
+    padding-left: 1vw;
+    padding-bottom: 1vh;
+    width: auto;
+    max-width: 50%;
+    height: 45%;
+
+    text-align: left;
+    overflow: hidden;
+    text-overflow: clip;
+    white-space: nowrap;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+}
+
+#np_song
+{
+    width: 100%;
+    height: auto;
+
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+#np_artist
+{
+    width: 100%;
+    height: auto;
+
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+#np_album
+{
+    width: 100%;
+    height: auto;
+
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+#play_button
+{
+    margin: 1vmax 20%;
+    padding: .5vmax;
+    width: 50%;
+    height: auto;
+    background: #ffcd00;
+
+    border: 2px solid black;
+    border-radius: .5rem;
+
+    color: black;
+    text-align: center;
+    font-weight: 700;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#play_button:hover
+{
+    background: black;
+    color: #ffcd00;
+}
+
+#twitch
+{
+    background: #ffcd00;
+    color: black;
+}
+
+#twitch iframe
+{
+    margin-bottom: 3vh;
+    width: 80vmin;
+    height: 45vmin;
+
+    border: 2px solid black;
+}
+
+.soc_item
+{
+    margin: 1vh 3vw;
+    width: 6vmax;
+    height: 6vmax;
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #ffcd00;
+
+    border: 0 solid black;
+    border-radius: .5rem;
+}
+
+#twitter
+{
+    background-image: url("../img/twitter.svg");
+}
+
+#twitter:hover
+{
+    background-image: url("../img/twitter_hover.svg");
+}
+
+#facebook
+{
+    background-image: url("../img/facebook.svg");
+}
+
+#facebook:hover
+{
+    background-image: url("../img/facebook_hover.svg");
+}
+
+#snapchat
+{
+    background-image: url("../img/snapchat.svg");
+}
+
+#snapchat:hover
+{
+    background-image: url("../img/snapchat_hover.svg");
+}
+
+#github
+{
+    background-image: url("../img/github.svg");
+}
+
+#github:hover
+{
+    background-image: url("../img/github_hover.svg");
+}
+
+#staff_button
+{
+    margin-bottom: 1vh;
+    padding: 1vmax 3vmax;
+    width: auto;
+    height: auto;
+    background: #ffcd00;
+
+    border: 2px solid #ffcd00;
+    border-radius: .5rem;
+
+    color: black;
+    text-align: center;
+    font-weight: 600;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#staff_button:hover
+{
+    background: black;
+    color: #ffcd00;
+}
+
+#footer
+{
+    margin: 0 auto;
+    margin-bottom: 2vh;
+    width: auto;
+    max-width: 95vw;
+    height: auto;
+
+    font-size: 1rem;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#footer a
+{
+    color: #ffcd00;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+#footer a:hover
+{
+    color: black;
+    background-color: #ffcd00;
+}
+
+#footer p
+{
+    margin: 0 0 .25vh 0;
+}
+
+.footer_item
+{
+    margin: 0 2vw;
+    width: auto;
+    height: auto;
+}
+
+#addr_title
+{
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+}
+
+#address
+{
+    margin: 0 0 .5vh 0 !important;
+    font-style: italic;
+}
+
+.addr_phone
+{
+    display: inline;
+    font-style: normal;
+}
+
+#status
+{
+    display: inline-block;
+    width: auto;
+    background: #2fcc66;
+
+    border: 0 solid transparent;
+    border-radius: .25rem;
+}
+
+#status:hover
+{
+    background: #ffcd00;
+}
+
+#status a
+{
+    color: black;
+}
+
+#status a:hover
+{
+    border: 0 solid transparent;
+    border-radius: .25rem;
+}
+
+#copydate
+{
+    margin: 0;
+    display: inline;
+}
