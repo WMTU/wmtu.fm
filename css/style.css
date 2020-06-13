@@ -292,24 +292,24 @@ a
     background-image: url("../img/facebook_hover.svg");
 }
 
-#snapchat
+#instagram
 {
-    background-image: url("../img/snapchat.svg");
+    background-image: url("../img/instagram.svg");
 }
 
-#snapchat:hover
+#instagram:hover
 {
-    background-image: url("../img/snapchat_hover.svg");
+    background-image: url("../img/instagram_hover.svg");
 }
 
-#github
+#gitlab
 {
-    background-image: url("../img/github.svg");
+    background-image: url("../img/gitlab.svg");
 }
 
-#github:hover
+#gitlab:hover
 {
-    background-image: url("../img/github_hover.svg");
+    background-image: url("../img/gitlab_hover.svg");
 }
 
 #staff_button
