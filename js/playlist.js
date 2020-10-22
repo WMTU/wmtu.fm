@@ -53,7 +53,7 @@ var nowPlaying = function()
     }
 
     // get current playing song info and send it to function
-    $.get('https://log.wmtu.fm/api/2.0/log', {n: 1, delay: false}, parseSongData);
+    $.get('https://log.wmtu.fm/api/2.0/history', {n: 1, delay: false}, parseSongData);
 
     // update every 5 seconds
     setTimeout(nowPlaying, 5000);
